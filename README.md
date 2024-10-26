@@ -6,22 +6,35 @@ This project aims to analyze the availability and usage of broadband internet ac
 The dataset, sourced from the FCC, provides county-level broadband metrics, including the percentage of broadband availability and usage per county across the United States. Each record includes identifiers like county and state names, making it suitable for both regional analysis and aggregate modeling. Key fields include broadband availability, broadband usage, county identifiers, and state identifiers.
 
 ## Summary of Findings
-This will be a brief summary of the findings of the project.
+The analysis indicates that broadband availability and usage vary significantly across counties and states. Areas with low broadband availability correlate with lower usage rates, highlighting access challenges. High broadband availability predominantly exists in urbanized regions, while rural counties often fall into medium or low availability categories. The Random Forest model proved to be the most accurate (100%) in classifying availability, underscoring its suitability for this classification task.
 
 ## Data Preprocessing
-This will be a brief description of the data preprocessing steps that you have taken to clean and prepare the dataset for analysis.
+Cleaning Column Names: Removing extra spaces for consistent referencing.
+Data Type Conversion: Converting availability and usage fields from string to numeric formats.
+Handling Missing Values: Dropping rows with missing values in critical columns.
+Feature Engineering: Creating availability categories (high, medium, low) based on predefined thresholds and calculating state-level average availability and usage for comparative insights.
 
 ## Exploratory Data Analysis
-This will be a visualization of the data that you have chosen to represent in the project; each visualization must have a corresponding interpretation. All visualizations must be placed here.
+Histogram of Broadband Availability and Usage: Shows the distribution of availability and usage rates across counties.
+Availability Category Counts: Displays the count of counties within each availability category (high, medium, low).
+State-Level Averages: A bar and line plot compares average broadband availability and usage by state, highlighting regional differences.
+Availability vs. Usage Scatter Plot: Demonstrates the correlation between broadband availability and usage across counties.
+## Visualization
+[Distribution of BROADBAND USAGE AND BROADBAND AVAILABILITY PER FCC](images/image1.png)
+
 
 ## Model Development
-This will be a brief description of the model development process that you have taken to create the model for the project.
+For classification, we explored several machine learning models:
+
+Logistic Regression
+Random Forest
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
 
 ## Model Evaluation
-This will be a brief description of the model evaluation process that you have taken to evaluate the model's performance for the project.
+The models were evaluated on their accuracy and classification metrics. The Random Forest model achieved perfect accuracy, making it the best classifier for broadband availability, followed closely by Logistic Regression with 99% accuracy. SVM and KNN models also performed well, achieving accuracies of 97% and 95%, respectively.
 
 ## Conclusion
-This will be a brief conclusion of the project, summarizing the key findings and insights from the analysis.
-
+This project highlights broadband accessibility trends across U.S. counties, identifying disparities in rural and urban regions. The Random Forest model’s accuracy validates its effectiveness in classifying broadband availability, aiding in identifying areas that may benefit from increased connectivity efforts. These insights provide a valuable resource for policymakers focusing on bridging the digital divide.
 ## Contributors
 ❗ NOTE: Your professor be the one to fill this section.
