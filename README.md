@@ -20,7 +20,7 @@ Availability Category Counts: Displays the count of counties within each availab
 State-Level Averages: A bar and line plot compares average broadband availability and usage by state, highlighting regional differences.
 Availability vs. Usage Scatter Plot: Demonstrates the correlation between broadband availability and usage across counties.
 ## Visualization
-[Distribution of BROADBAND USAGE AND BROADBAND AVAILABILITY PER FCC](images/image1.png)
+![Distribution of BROADBAND USAGE AND BROADBAND AVAILABILITY PER FCC](images/image1.png)
 
 
 ## Model Development
