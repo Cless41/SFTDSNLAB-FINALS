@@ -21,6 +21,13 @@ State-Level Averages: A bar and line plot compares average broadband availabilit
 Availability vs. Usage Scatter Plot: Demonstrates the correlation between broadband availability and usage across counties.
 ## Visualization
 ![Distribution of BROADBAND USAGE AND BROADBAND AVAILABILITY PER FCC](images/image1.png)
+"This chart illustrates the broadband usage and broadband availability between the different counties."
+![BROADBAND AVAILABILITY CATEGORY COUNTS](images/image2.png)
+"This chart categorizes the broadband availability category count."
+![State-level Averages of BROADBAND AVAILABILITY and BROADBAND USAGE](images/image3.png)
+"This chart shows the average broadband availability and usage in each state."
+![BROADBAND AVAILABILITY PER FCC and BROADBAND USAGE SCATTER PLOT](images/image4.png)
+"This illustration shows the relationship between the broadband availability and usage."
 
 
 ## Model Development
