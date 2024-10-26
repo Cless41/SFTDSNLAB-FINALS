@@ -21,22 +21,22 @@ State-Level Averages: A bar and line plot compares average broadband availabilit
 Availability vs. Usage Scatter Plot: Demonstrates the correlation between broadband availability and usage across counties.
 ## Visualization
 ![Distribution of BROADBAND USAGE AND BROADBAND AVAILABILITY PER FCC](images/image1.png)
-## "This chart illustrates the broadband usage and broadband availability between the different counties. The first plot shows a left-skewed distribution, which shows that there's a high broadband availability. The second plot shows that there's a right-skewed distribution which shows that there's a high count for low broadband usage."
+### "This chart illustrates the broadband usage and broadband availability between the different counties. The first plot shows a left-skewed distribution, which shows that there's a high broadband availability. The second plot shows that there's a right-skewed distribution which shows that there's a high count for low broadband usage."
 ![BROADBAND AVAILABILITY CATEGORY COUNTS](images/image2.png)
-## "This chart categorizes the broadband availability category count. The graph shows that the highest count for the availability category is "HIGH", followed by "MEDIUM" and then "LOW"."
+### "This chart categorizes the broadband availability category count. The graph shows that the highest count for the availability category is "HIGH", followed by "MEDIUM" and then "LOW"."
 ![State-level Averages of BROADBAND AVAILABILITY and BROADBAND USAGE](images/image3.png)
-## "This chart shows the average broadband availability and usage in each state. States on the left show relatively low broadband availability and usage while states on the right show a much higher broadband availability and usage. States in between show a general but less consistent increase."
+### "This chart shows the average broadband availability and usage in each state. States on the left show relatively low broadband availability and usage while states on the right show a much higher broadband availability and usage. States in between show a general but less consistent increase."
 ![BROADBAND AVAILABILITY PER FCC and BROADBAND USAGE SCATTER PLOT](images/image4.png)
-## "This illustration shows the relationship between the broadband availability and usage. Each dot represents a data point, color-coded by availability: blue for low, purple for medium, and magenta for high. The graph shows a positive correlation, indicating that areas with higher broadband availability generally have higher broadband usage. However, inconsistency between usage and availability in some regions show that there may be other factors in play. Clustered points in the high availability categories show greater broadband availability coincides with increased usage but in some areas, adoption of broadband lags behind despite the presence of significant availability."
+### "This illustration shows the relationship between the broadband availability and usage. Each dot represents a data point, color-coded by availability: blue for low, purple for medium, and magenta for high. The graph shows a positive correlation, indicating that areas with higher broadband availability generally have higher broadband usage. However, inconsistency between usage and availability in some regions show that there may be other factors in play. Clustered points in the high availability categories show greater broadband availability coincides with increased usage but in some areas, adoption of broadband lags behind despite the presence of significant availability."
 
 
 ## Model Development
 For classification, we explored several machine learning models:
 
-Logistic Regression
-Random Forest
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
+Logistic Regression,
+Random Forest,
+Support Vector Machine (SVM),
+K-Nearest Neighbors (KNN),
 
 ## Model Evaluation
 The models were evaluated on their accuracy and classification metrics. The Random Forest model achieved perfect accuracy, making it the best classifier for broadband availability, followed closely by Logistic Regression with 99% accuracy. SVM and KNN models also performed well, achieving accuracies of 97% and 95%, respectively.
